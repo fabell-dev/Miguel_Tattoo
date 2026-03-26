@@ -482,7 +482,7 @@ export default function App() {
             </div>
           </motion.div>
 
-          <a href="">
+          <a href="https://wa.me/qr/TP5M5BI2IDZQJ1">
             <motion.button
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
