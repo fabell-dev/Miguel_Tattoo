@@ -1,4 +1,5 @@
 # Miguel Tattoo Project
+![Descripción](src/public/miguell-tattoo.png)
 
 Landing page moderna para el portafolio y captación de clientes de un estudio de tatuajes.
 
