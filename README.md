@@ -1,16 +1,30 @@
-# Miguel Tattoo Project
+# Miguel Tattoo 🖋️
+
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38BDF8?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Deploy](https://img.shields.io/badge/Vercel-Deployed-000?logo=vercel&logoColor=white)](https://miguel-tattoo.vercel.app/)
+
+**Landing page moderna para el portafolio y captación de clientes de un estudio de tatuajes ubicado en La Habana, Cuba.**
+
+> 🌐 **Demo en vivo:** [https://miguel-tattoo.vercel.app/](https://miguel-tattoo.vercel.app/)
+
 ![Descripción](src/public/miguell-tattoo.png)
 
-Landing page moderna para el portafolio y captación de clientes de un estudio de tatuajes.
+---
 
-## Demo
+## ¿De qué va este proyecto?
 
-- Producción: https://miguel-tattoo.vercel.app/
+Este repositorio contiene el sitio web oficial de **Miguel Tattoo**, un tatuador profesional con estudio en el barrio de 10 de Octubre, La Habana, Cuba.
 
-## Descripción
+El sitio es una **Single Page Application (SPA)** construida con React + Vite que funciona como:
 
-Este proyecto es una SPA construida con React + Vite que presenta la marca personal de Miguel Tattoo.
-Incluye navegación suave entre secciones, animaciones, galería visual con modal de imagen y un CTA directo a WhatsApp para agendar consultas.
+- 🎨 **Portafolio visual** — galería de trabajos realizados con ampliación en modal.
+- 📣 **Landing de captación** — llamados a la acción directos hacia WhatsApp e Instagram.
+- 🖥️ **Presentación de servicios** — secciones de Sobre mí, Trabajos, Servicios y Contacto.
+
+---
 
 ## Características principales
 
@@ -58,18 +72,18 @@ La app estará disponible en `http://localhost:5173`.
 ├── package.json
 ├── vite.config.ts
 └── src
-	├── main.tsx
-	├── app
-	│   ├── App.tsx
-	│   └── components
-	│       ├── ImageWithFallback.tsx
-	│       ├── figma
-	│       └── ui
-	└── styles
-		├── index.css
-		├── tailwind.css
-		├── theme.css
-		└── fonts.css
+    ├── main.tsx
+    ├── app
+    │   ├── App.tsx
+    │   └── components
+    │       ├── ImageWithFallback.tsx
+    │       ├── figma
+    │       └── ui
+    └── styles
+        ├── index.css
+        ├── tailwind.css
+        ├── theme.css
+        └── fonts.css
 ```
 
 ## Flujo de despliegue
